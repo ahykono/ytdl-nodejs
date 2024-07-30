@@ -1,10 +1,10 @@
-**Syntax**: `(url) [-e "extension type"] [-d "destination"]` <br>
+**Syntax**: `(url/video-id) [-e "extension type"] [-d "destination"]` <br>
 \- *double quotes are only for this example*
 
-use `[-u "url"]` for a different syntax approach <br>
+use `[-u "url/video-id"]` for a different syntax approach <br>
 **Example**: `-e mkv -d C:\Users\*\Music -u https://*.com/*`
 
-Obviously you can insert video ID instead of url, take your preference
+Default file format is set to `m4a` <br>
 
 ### Known issues 
 \- Video download will abort thus the file will remain corrupt while it's still streamable up to a point in the seekbar <br>
