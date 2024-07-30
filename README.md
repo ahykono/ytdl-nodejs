@@ -7,7 +7,7 @@ use `[-u "url/video-id"]` for a different syntax approach <br>
 Default file format is set to `m4a` <br>
 
 ### Known issues 
-\- Video download will abort thus the file will remain corrupt while it's still streamable up to a point in the seekbar <br>
+\- Video download will abort halfway thus the file will become corrupt while it's still streamable up to a point <br>
 \- Audio works but sometimes will fail to download entirely (Fix: delete empty file & retry)
 
 ### Note
