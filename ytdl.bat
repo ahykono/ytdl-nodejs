@@ -1,5 +1,4 @@
 @echo off
-cd ../ytdl
 
 :loop
 set /p args="Insert -> "
